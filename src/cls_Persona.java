@@ -25,6 +25,16 @@ import java.util.Date;
         // Creates default constructor
         public cls_Persona() {  }
 
+        public cls_Persona(int cedula, String nombre){
+            this.cedula = cedula;
+            this.nombre = nombre;
+        }
+
+        public cls_Persona( String nombre,int cedula){
+            this.cedula = cedula;
+            this.nombre = nombre;
+        }
+
         // Creates parametrized constructor
         public cls_Persona(int cedula, String nombre, char sexo, char eCivil, Date fecNac) {
             this.cedula = cedula;
